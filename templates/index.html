@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+   
+   <div class="limiter ">
+            <div class="back-image container-login100" style="background-image:url(/static/aii.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;width:100%">
+                
+                <div class="row wrap-login100">
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-xl-3 login_bg mx-auto">
+                       <form class="login100-form validate-form" id="frmlogin" method="post" action="/predict">
+                            <h1 class="login100-form-title"> Crop Recomandation </h1>
+                            <div class="validate-input wrap-input100 mb-4" data-validate="All data is required">
+                                <input class="input100 valid" type="number"  id="n" name="n" placeholder="Nitrogen 00" required="" aria-required="true" aria-invalid="false"><span class="focus-input100"></span></div>
+                            <div class="validate-input wrap-input100 mb-4" data-validate="All data is required">
+                                <input class="input100 valid" type="number" id="p" name="p" placeholder="Phosphours 00" required="" aria-required="true" aria-invalid="false"><span class="focus-input100"></span></div>
+                            <div class="validate-input wrap-input100 mb-4" data-validate="All data is required">
+                                <input class="input100 valid" type="number" id="k" name="k" placeholder="Potassium 00" required="" aria-required="true" aria-invalid="false"><span class="focus-input100"></span></div>
+                            <div class="validate-input wrap-input100 mb-4" data-validate="All data is required">
+                                <input class="input100 valid" type="number" step="0.01" id="t" name="t" placeholder="Tempereture 00.00" required="" aria-required="true" aria-invalid="false"><span class="focus-input100"></span></div>
+                            <div class="validate-input wrap-input100 mb-4" data-validate="All data is required">
+                                <input class="input100 valid" type="number" step="0.01" id="h" name="h" placeholder="Humidity 00.00" required="" aria-required="true" aria-invalid="false"><span class="focus-input100"></span></div>
+                            <div class="validate-input wrap-input100 mb-4" data-validate="All data is required">
+                                <input class="input100 valid" type="number" step="0.01" id="ph" name="ph" placeholder="PH 0.00" required="" aria-required="true" aria-invalid="false"><span class="focus-input100"></span></div>
+                            <div class="validate-input wrap-input100 mb-4" data-validate="All data is required">
+                                <input class="input100 valid" type="number" step="0.01"  id="r" name="r" placeholder="Rain Fall 000.00" required="" aria-required="true" aria-invalid="false"><span class="focus-input100"></span></div>
+                                                  
+                             <div class="container-login100-form-btn"><button class="login100-form-btn" type="submit" id="btnLogin">Predict</button>
+                                <div class="py-2"><img class="loading" style="width:40px; display:none" src="https://kusum.mahaurja.com/assets/login/images/loading.gif"></div>
+                         </from>
+                    </div>
+                   
+                </div>
+            </div>    
+            
+    </div>    
+    <footer class="text-center" >
+        <h4 style="color:brown" class="text-center">from</h4>
+        <h3 style="color:#596ba1" class="login100-form-title">Madhav Abuj</h3>
+        
+        <div class="wrapper text-center">
+            <a href="https://www.linkedin.com/in/madhav-abuj-463977158/"  class="icon facebook">
+               <div class="tooltip">
+                  linkedin
+               </div>
+               <span><i class="fab fa-linkedin"></i></span>
+            </a>
+            <a href=""  class="icon twitter">
+               <div class="tooltip">
+                  Twitter
+               </div>
+               <span><i class="fab fa-twitter"></i></span>
+            </a>
+            <a href="https://www.instagram.com/madhav_abuj/"  class="icon instagram">
+               <div class="tooltip">
+                  Instagram
+               </div>
+               <span><i class="fab fa-instagram"></i></span>
+            </a>
+            <a href="https://github.com/madhavabuj"  class="icon github">
+               <div class="tooltip">
+                  Github
+               </div>
+               <span><i class="fab fa-github"></i></span>
+            </a>
+            
+         </div>
+   
+   
+    </footer>        
+        
+        
+    
+</body>
+</html>       
