@@ -467,7 +467,11 @@ label.error {
         padding:30px 15px 33px 15px
     }
 }
-
+media (max-width: 768px)
+.login100-form {
+    padding: 20px 20px;
+    width: 100%;
+}
 .validate-input {
     position: relative
 }
